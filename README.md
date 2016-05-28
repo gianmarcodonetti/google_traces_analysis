@@ -5,18 +5,18 @@ The programs analyseJobs.py and analyseTasks.py are the most interesting files: 
 ***********************
 ## INPUT :
 	
--	##### end: 
+-	end: 
 		the only hard-required argument
 		type = int
 		This is the type of event to consider in order to end the calculation of the duration.
 
--	##### -i, --input: 
+-	-i, --input: 
 		_ Jobs  default = "job_events_May2_4columns.csv"
 				The csv file must contain the columns "Time,JobId,Event,SchedulingClass"
 		_ Tasks default = "task_events_May2_6columns.csv"
 				The csv file must contain the columns "Time,JobId,TaskIndex,Event,SchedulingClass,Priority"
 
--	##### --start: 
+-	--start: 
 		default = 0 (SUBMIT)
 		type = int
 		This is the type of event to consider in order to start calculating the duration.
