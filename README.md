@@ -1,5 +1,5 @@
 ***********************
-## HOW TO
+# README: HOW TO
 The programs analyseJobs.py and analyseTasks.py are the most interesting files: given a csv file, they produce statistical data and information about the duration of tasks and job.
 
 ***********************
