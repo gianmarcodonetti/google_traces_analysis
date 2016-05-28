@@ -5,7 +5,8 @@ The programs analyseJobs.py and analyseTasks.py are the most interesting files: 
 ***********************
 ## INPUT :
 	
-- end: 
+## - end:
+
 	the only hard-required argument
 	type = int
 	This is the type of event to consider in order to end the calculation of the duration.
