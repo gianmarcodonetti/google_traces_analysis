@@ -5,34 +5,33 @@ The programs analyseJobs.py and analyseTasks.py are the most interesting files: 
 ***********************
 ## INPUT :
 	
-### end:
-
+#### end:
 	the only hard-required argument
 	type = int
 	This is the type of event to consider in order to end the calculation of the duration.
 
-### -i, --input: 
-	_ Jobs  default = "job_events_May2_4columns.csv"
+#### -i, --input: 
+	- in case of Jobs  default = "job_events_May2_4columns.csv"
 		The csv file must contain the columns "Time,JobId,Event,SchedulingClass"
-	_ Tasks default = "task_events_May2_6columns.csv"
+	- in case of Tasks default = "task_events_May2_6columns.csv"
 		The csv file must contain the columns "Time,JobId,TaskIndex,Event,SchedulingClass,Priority"
 
-### --start: 
+#### --start: 
 	default = 0 (SUBMIT)
 	type = int
 	This is the type of event to consider in order to start calculating the duration.
 	
-### -g, --granularity: 
+#### -g, --granularity: 
 		type = int
 		default = 1
 		The granularity espressed in hours. It indicates the width of the time window to group tasks/jobs.
 
-### --startDay: 
+#### --startDay: 
 		default = 2
 		type = int
 		You can specify a specific day of March to consider as starting day (It should be contained in the input file)
 	
-### --endDay: 
+#### --endDay: 
 		default = 3
 		type = int
 		Similarly to startDay, you can specify the ending day (It should be contained in the input file)
